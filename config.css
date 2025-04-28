@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #222;
+  --color-link: rgb(114, 182, 236);
+  --font-display: "Open Sans", "sans-serif";
+}
+
+.filter-white {
+  filter: invert(98%) sepia(10%) saturate(73%) hue-rotate(306deg) brightness(120%) contrast(100%);
+}
+
+body {
+  max-width: 1140px;
+  margin: auto;
+  color: white;
+  padding: 0 16px;
+}
+
+a {
+  color: var(--color-link);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+#README pre {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  padding-left: 3em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.breadcrumb {
+  display: flex;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: #6c757d;
+  content: "⟩";
+}
+
+
+#list .thead-dark th a, #list .thead-dark th a:hover, #list .thead-dark th a:focus {
+  color: #FFFFFF;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+}
+.table .thead-dark th {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #454d55;
+}
+
+.table td, .table th {
+  padding: .3rem;
+}

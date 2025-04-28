@@ -1,8 +1,2 @@
-*.zip
-*.sha256sum
-*.sig
-*.iso
-*.box
-*.deb
-releases_archive
-images.json
+/tailwindcss
+/index.css
