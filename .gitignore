@@ -1,2 +1,6 @@
-/tailwindcss
+/build
+/jquery.min.js
+/showdown.min.js
+/yunohost-logo_white.svg
 /index.css
+/fontawesome/
