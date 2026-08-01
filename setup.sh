@@ -34,6 +34,8 @@ download() {
 
     dl https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "jquery.min.js"
     dl https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js "showdown.min.js"
+
+    dl https://raw.githubusercontent.com/YunoHost/yunohost-artwork/refs/heads/main/logos/svg/yunohost-logo_white.svg yunohost-logo_white.svg
 }
 
 build() {
