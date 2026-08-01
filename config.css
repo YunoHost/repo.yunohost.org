@@ -1,4 +1,8 @@
-@import "tailwindcss";
+@import "tailwindcss" source(none);
+@source "header.html";
+@source "footer.html";
+@source "index.html";
+@source "script.js";
 
 @theme {
   --color-background: #222;
